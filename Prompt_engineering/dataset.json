@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon training with high energy needs and carbohydrate focus for endurance performance",
+      "restrictions": "Vegetarian, no nuts"
+    },
+    "solution_criteria": [
+      "Meal plan covers full day with 4+ meals/snacks totaling 3000+ calories appropriate for marathon training",
+      "Includes pre-training, during-training, and post-training meals with specific timing",
+      "Carbohydrates comprise 55-65% of daily intake with emphasis on complex carbs",
+      "All meals comply with vegetarian and nut-free restrictions"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring high calorie intake and carbohydrate focus, including specific meal timing around training"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "Strength training and muscle gain with post-workout recovery nutrition",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan spans exactly 1 day with all meals specified",
+      "Protein distributed across minimum 4 meals with post-workout meal included",
+      "Total daily protein intake supports muscle gain for an 85 kg athlete",
+      "Includes recovery nutrition timing around strength training workout"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength-based athlete (weightlifter) emphasizing protein distribution across meals and recovery nutrition post-workout"
+  },
+  {
+    "prompt_inputs": {
+      "height": "165 cm",
+      "weight": "58 kg",
+      "goal": "Maintain weight while maximizing endurance and strength for wrestling competition in 3 days",
+      "restrictions": "No dairy, no processed foods"
+    },
+    "solution_criteria": [
+      "Meal plan totals 1,800-2,000 calories distributed across 4-5 meals to support weight maintenance and performance",
+      "Includes adequate protein (minimum 120g) for muscle recovery without exceeding calorie limit",
+      "All meals comply with stated dietary restrictions (dairy-free, unprocessed)",
+      "Includes specific hydration guidelines appropriate for weight-managed athlete"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport requiring weight management (jockey or wrestler) needing calorie control while maintaining performance nutrition and hydration guidelines"
+  }
+]
