@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Create a regular expression to validate AWS S3 bucket names according to AWS naming rules (lowercase letters, numbers, hyphens only, 3-63 characters, cannot start or end with hyphen)",
+    "format": "regex",
+    "solution_criteria": "Regex must match valid S3 bucket names and reject invalid ones (e.g., 'my-bucket-123' passes, 'My-Bucket' fails, '-bucket' fails, 'ab' fails)"
+  },
+  {
+    "task": "Write a Python function that parses an AWS CloudWatch log entry and extracts the timestamp, log level, and message fields from a space-separated log line",
+    "format": "python",
+    "solution_criteria": "Function should correctly parse log entries like '2024-01-15T10:30:45Z ERROR Database connection timeout' and return a dictionary with timestamp, level, and message keys"
+  },
+  {
+    "task": "Generate a JSON CloudFormation template snippet that defines an AWS Lambda function with basic execution role and environment variables for API_KEY and REGION",
+    "format": "json",
+    "solution_criteria": "JSON must be valid CloudFormation syntax, include Properties with Handler, Runtime, Environment variables, and a proper role reference"
+  }
+]
